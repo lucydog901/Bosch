@@ -5,7 +5,7 @@ class App extends Component {
     paintings: []
   }
   componentDidMount() {
-    fetch('http://api.creativecommons.engineering/v1/images?format=json&q=sun&source=met,clevelandmuseum,smithsonian_portrait_gallery,smithsonian_cooper_hewitt_museum&page=3')
+    fetch('https://api.creativecommons.engineering/v1/images?format=json&q=sun&source=met,clevelandmuseum,smithsonian_portrait_gallery,smithsonian_cooper_hewitt_museum&page=3')
     .then(res => res.json())
     .then((data) => {
       this.setState({ paintings: data.results})

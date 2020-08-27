@@ -5,10 +5,10 @@ class App extends Component {
     paintings: []
   }
   componentDidMount() {
-    fetch('https://api.artic.edu/api/v1/artworks?fields=id,title')
+    fetch('http://api.creativecommons.engineering/v1/images?format=json&q=sunflowers&source=met')
     .then(res => res.json())
     .then((data) => {
-      this.setState({ paintings: data.data})
+      this.setState({ paintings: data.results})
       console.log(this.state.paintings)
     })
     .catch(console.log)
@@ -23,8 +23,8 @@ class App extends Component {
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">{painting.title}</h5>
-              <h6 className="card-subtitle mb-2 text-muted">{painting.id}</h6>
-              <img src='https://ms-f7-sites-01-cdn.azureedge.net/docs/stories/765209-bosch-increases-vehicle-safety-using-map-matching-algorithms-and-azure-kubernetes-service/resources/baaba239-3ad3-4e5c-a59a-d399fc5bb71d/1168259536605464231_1168259536605464231' />
+              <h6 className="card-subtitle mb-2 text-muted">{painting.creator}</h6>
+              <img src={painting.url} />
             </div>
           </div>
         ))}

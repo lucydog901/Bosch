@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css'
 
 class App extends Component {
   state = {
@@ -18,7 +19,7 @@ class App extends Component {
     return (
        <div className="container">
         <div className="col-xs-12">
-        <h1>Bosch Bash</h1>
+        <img src={require('./images/header6.png')} alt="header" width="750"/>
         {this.state.paintings.map((painting) => (
           <div className="card">
             <div className="card-body">

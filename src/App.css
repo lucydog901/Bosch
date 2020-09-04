@@ -45,3 +45,7 @@ body {
   padding-left: ($spacer * .5) !important;
   padding-right: ($spacer * .5) !important;
 }
+
+.navbar-custom {
+  background-color: #2c2c31;
+}

@@ -31,7 +31,7 @@ class App extends Component {
                   <h5 className="card-title">{painting.title}</h5>
                   <h6 className="card-subtitle mb-2 text-muted">{painting.creator}</h6>
                   <h6 className="card-subtitle mb-2 text-muted">source: {painting.source}</h6>
-                  <img src={painting.url} alt="Artwork" width="250" />
+                  <img src={painting.url} alt="Artwork" width="250" class="rounded"/>
                 </div>
               </div>
             ))}

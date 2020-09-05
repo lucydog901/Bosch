@@ -1,17 +1,14 @@
 .App {
-  text-align: center;
+  text-align: right;
 }
-
-
 
 .App-link {
   color: #61dafb;
 }
 
 
-
 body {
-  background-color: #6d6969;
+  background-color: #474444;
 }
 
 .image-grid {
@@ -37,4 +34,5 @@ body {
 
 .navbar-custom {
   background-color: #2c2c31;
+
 }

@@ -10,7 +10,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('https://api.creativecommons.engineering/v1/images?format=json&source=met,clevelandmuseum,smithsonian_portrait_gallery,smithsonian_cooper_hewitt_museum&creator=Gauguin ')
+    fetch('https://api.creativecommons.engineering/v1/images?format=json&source=met,clevelandmuseum,smithsonian_portrait_gallery,smithsonian_cooper_hewitt_museum&creator=gogh ')
       .then(res => res.json())
       .then((data) => {
         this.setState({ paintings: data.results })

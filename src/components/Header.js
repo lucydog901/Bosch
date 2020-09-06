@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import logoUrl from '../images/header_trans.png'
 
 

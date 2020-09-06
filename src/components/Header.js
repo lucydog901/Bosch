@@ -10,13 +10,13 @@ const Header = () => (
       </a>
       <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#"><h5>Search Museums</h5><span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="https://www.boschbash.com/"><h5>Search Museums</h5><span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><h5>View Gallery</h5></a>
+        <a class="nav-link" href="https://www.boschbash.com/"><h5>View Gallery</h5></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><h5>About H. Bosch</h5></a>
+        <a class="nav-link" href="https://www.boschbash.com/"><h5>About H. Bosch</h5></a>
       </li>
     </ul>
 

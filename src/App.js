@@ -31,10 +31,10 @@ class App extends Component {
               {this.state.paintings.map((painting) => (
                 <div className="card">
                   <div className="card-body px-2">
-                    <h5 className="card-title">{painting.title}</h5>
-                    <h6 className="card-subtitle mb-2 text-muted">{painting.creator}</h6>
-                    <h6 className="card-subtitle mb-2 text-muted">source: {painting.source}</h6>
-                    <img src={painting.url} alt="Artwork" width="250" class="rounded" />
+                    <h6 className="card-title">{painting.title}</h6>
+                    <p className="card-subtitle mb-2 text-muted">{painting.creator}</p>
+                    <img src={painting.url} alt="Artwork" width="250" class="rounded"/><br></br>
+                    <h7 className="card-subtitle mb-2 text-muted">source: {painting.source}</h7>
                   </div>
                 </div>
               ))}

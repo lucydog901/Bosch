@@ -1,5 +1,5 @@
 .App {
-  text-align: right;
+  text-align: center;
 }
 
 .App-link {
@@ -8,7 +8,7 @@
 
 
 body {
-  background-color: #474444;
+  background-image: url("./images/grey_wash_wall.png");
 }
 
 .image-grid {
@@ -33,6 +33,6 @@ body {
 }
 
 .navbar-custom {
-  background-color: #2c2c31;
+  background: linear-gradient(#666967, #000000);
 
 }

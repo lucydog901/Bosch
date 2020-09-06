@@ -1,5 +1,5 @@
 import React from 'react'
-import logoUrl from '../images/headerdark.png'
+import logoUrl from '../images/header_trans.png'
 
 
 const Header = () => (

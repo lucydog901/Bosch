@@ -4,7 +4,7 @@ import still from '../images/still_life.png';
 
 
 
-const Welcome = () => (
+const Welcome = (props) => (
   <div className="welcome">
   <div class="container p-3 my-4">
     <div class="d-flex flex-row">

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header';
+import Welcome from './components/Welcome';
 
 
 
@@ -23,18 +24,21 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <div className="container">
-          <div className="image-grid">
-            {this.state.paintings.map((painting) => (
-              <div className="card">
-                <div className="card-body px-2">
-                  <h5 className="card-title">{painting.title}</h5>
-                  <h6 className="card-subtitle mb-2 text-muted">{painting.creator}</h6>
-                  <h6 className="card-subtitle mb-2 text-muted">source: {painting.source}</h6>
-                  <img src={painting.url} alt="Artwork" width="250" class="rounded"/>
+        <Welcome />
+        <div class="mt-4 col-md-12">
+          <div className="container">
+            <div className="image-grid">
+              {this.state.paintings.map((painting) => (
+                <div className="card">
+                  <div className="card-body px-2">
+                    <h5 className="card-title">{painting.title}</h5>
+                    <h6 className="card-subtitle mb-2 text-muted">{painting.creator}</h6>
+                    <h6 className="card-subtitle mb-2 text-muted">source: {painting.source}</h6>
+                    <img src={painting.url} alt="Artwork" width="250" class="rounded" />
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </div>

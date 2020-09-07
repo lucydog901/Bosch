@@ -9,7 +9,7 @@ const Welcome = () => (
     <div class="d-flex flex-row">
       <div class="col-sm-4">
         <div class="p-4">
-        <img class="image.a" src={lisaUrl} alt="Mona Lisa" class="rounded" class="img-fluid" />
+        <img class="img-a" src={lisaUrl} alt="Mona Lisa" class="rounded" class="img-fluid" />
         </div>
         </div>
         <div class="p-4">

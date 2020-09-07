@@ -12,13 +12,16 @@ const Header = () => (
         <a class="nav-link" href="https://www.boschbash.com/"><h5>Home</h5><span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="https://www.boschbash.com/"><h5>Choose</h5></a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="https://www.boschbash.com/"><h5>Search</h5></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://www.boschbash.com/"><h5>Gallery</h5></a>
+        <a class="nav-link" href="https://www.boschbash.com/"><h5>Upload</h5></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://www.boschbash.com/"><h5>Upload</h5></a>
+        <a class="nav-link" href="https://www.boschbash.com/"><h5>Gallery</h5></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://www.boschbash.com/"><h5>About</h5></a>

@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Welcome from './components/Welcome';
-
+import Slider from './components/Slider'
+import Preview from './components/Preview';
 
 
 class App extends Component {
@@ -24,6 +25,7 @@ class App extends Component {
     return (
       <div>
         <Header />
+        <Slider />
         <Welcome />
         <div class="mt-4 col-md-12">
           <div className="container">
@@ -41,6 +43,7 @@ class App extends Component {
             </div>
           </div>
         </div>
+        <Preview />
       </div>
     );
   }

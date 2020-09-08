@@ -9,16 +9,13 @@ class Preview extends Component {
         imagePreviewUrl: ''
       };
       this._handleImageChange = this._handleImageChange.bind(this);
-      this._handleRemove = this._handleRemove.bind(this);
+      // this._handleSubmit = this._handleSubmit.bind(this);
     }
   
-    _handleRemove(e) {
-      e.preventDefault();
-      this.setState({
-        imagePreviewUrl: null
-      });
-      this.showfields = false
-    }
+    // _handleSubmit(e) {
+    //   e.preventDefault();
+    //   // TODO: do something with -> this.state.file
+    // }
   
     _handleImageChange(e) {
       e.preventDefault();
@@ -59,7 +56,7 @@ class Preview extends Component {
         <div class="p-4">
           <form onSubmit={this._handleSubmit}>
             <input type="file" onChange={this._handleImageChange} />
-            <button type="reset" onClick={this._handleRemove}>Remove</button>
+            {/* <button type="submit" onClick={this._handleSubmit}>Upload Image</button> */}
           </form>
           </div>
           </div>

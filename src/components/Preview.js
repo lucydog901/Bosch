@@ -9,13 +9,13 @@ class Preview extends Component {
         imagePreviewUrl: ''
       };
       this._handleImageChange = this._handleImageChange.bind(this);
-      this._handleSubmit = this._handleSubmit.bind(this);
+      // this._handleSubmit = this._handleSubmit.bind(this);
     }
   
-    _handleSubmit(e) {
-      e.preventDefault();
-      // TODO: do something with -> this.state.file
-    }
+    // _handleSubmit(e) {
+    //   e.preventDefault();
+    //   // TODO: do something with -> this.state.file
+    // }
   
     _handleImageChange(e) {
       e.preventDefault();
@@ -44,11 +44,15 @@ class Preview extends Component {
         <div>
          <div class="container p-3 my-4">
          <div class="d-flex flex-row">
+         <div class="col-sm-4">
+        <div class="p-4">
           <form onSubmit={this._handleSubmit}>
             <input type="file" onChange={this._handleImageChange} />
-            <button type="submit" onClick={this._handleSubmit}>Upload Image</button>
+            {/* <button type="submit" onClick={this._handleSubmit}>Upload Image</button> */}
           </form>
           {$imagePreview}
+        </div>
+        </div>
         </div>
         </div>
         </div>

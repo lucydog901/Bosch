@@ -46,11 +46,11 @@ class Preview extends Component {
          <div class="d-flex flex-row">
          <div class="col-sm-4">
         <div class="p-4">
+        {$imagePreview}
           <form onSubmit={this._handleSubmit}>
             <input type="file" onChange={this._handleImageChange} />
             {/* <button type="submit" onClick={this._handleSubmit}>Upload Image</button> */}
           </form>
-          {$imagePreview}
         </div>
         </div>
         </div>

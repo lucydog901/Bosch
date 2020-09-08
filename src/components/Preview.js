@@ -42,11 +42,15 @@ class Preview extends Component {
   
       return (
         <div>
+         <div class="container p-3 my-4">
+         <div class="d-flex flex-row">
           <form onSubmit={this._handleSubmit}>
             <input type="file" onChange={this._handleImageChange} />
             <button type="submit" onClick={this._handleSubmit}>Upload Image</button>
           </form>
           {$imagePreview}
+        </div>
+        </div>
         </div>
       )
     }

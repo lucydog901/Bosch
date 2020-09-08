@@ -27,6 +27,7 @@ class App extends Component {
         <Header />
         <Slider />
         <Welcome />
+        <Preview />
         <div class="mt-4 col-md-12">
           <div className="container">
             <div className="image-grid">
@@ -43,7 +44,6 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <Preview />
       </div>
     );
   }

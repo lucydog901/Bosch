@@ -37,25 +37,30 @@ class Preview extends Component {
       let {imagePreviewUrl} = this.state;
       let $imagePreview = null;
       if (imagePreviewUrl) {
-        $imagePreview = (<img src={imagePreviewUrl} />);
+        $imagePreview = (<img src={imagePreviewUrl} class="img-b" />);
       }
   
       return (
         <div>
          <div class="container p-3 my-4">
          <div class="d-flex flex-row">
-         <div class="col-sm-4">
+         <div class="col">
         <div class="p-4">
         {$imagePreview}
+        <div class="row">
+        <div class="p-4">
           <form onSubmit={this._handleSubmit}>
             <input type="file" onChange={this._handleImageChange} />
             {/* <button type="submit" onClick={this._handleSubmit}>Upload Image</button> */}
           </form>
+          </div>
+          </div>
+          </div>
         </div>
         </div>
         </div>
         </div>
-        </div>
+        
       )
     }
   

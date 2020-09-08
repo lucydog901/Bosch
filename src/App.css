@@ -47,13 +47,6 @@ body {
 
 
 
-.p {
-  font-stretch: 50%;
-  font-size: 20px;
-
-}
-
-
 .card {
   color:black;
   background-color: rgba(255, 255, 255, 0.2);
@@ -71,6 +64,11 @@ body {
   vertical-align: top;
 }
 
+
+.img-b {
+  max-width: 600px;
+  max-height: 600px
+}
 
 
 

@@ -44,6 +44,11 @@ class Preview extends Component {
         <div>
          <div class="container p-3 my-4">
          <div class="d-flex flex-row">
+         <div class="p-4">
+        <h4>Image Upload</h4> 
+        </div>
+        </div>
+        <div class="d-flex flex-row">
          <div class="col">
         <div class="p-4">
         {$imagePreview}

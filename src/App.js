@@ -5,12 +5,11 @@ import Welcome from './components/Welcome';
 import Slider from './components/Slider'
 import Preview from './components/Preview';
 import Apigrid from './components/Apigrid';
+// import { BrowserRouter as Router, Switch, Route } 'react-router-dom';
 
 
 class App extends Component {
-  state = {
-    paintings: []
-  }
+ 
 
 
   render() {
@@ -19,9 +18,9 @@ class App extends Component {
       <div>
         <Header />
         <Slider />
+        <Preview />
         <Apigrid />
         <Welcome />
-        <Preview />
         
         
       </div>

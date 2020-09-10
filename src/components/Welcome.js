@@ -8,12 +8,12 @@ import daveUrl from '../images/dave.png';
 const Welcome = () => (
   <div class="container p-3 my-4">
     <div class="d-flex flex-row">
-      <div class="col-lg-4">
+      <div class="col-sm-5">
         <div class="p-4">
-        <img class="img-a rounded img-fluid" src={lisaUrl} alt="Mona Lisa" />
+        <img class="rounded img-fluid" src={lisaUrl} alt="Mona Lisa" />
         </div>
         </div>
-        <div class="col">
+        <div class="col-sm-7">
         <div class="p-4">
         <div class="card-transparent">
         <div class="card-body">

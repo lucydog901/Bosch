@@ -1,6 +1,6 @@
 import React from 'react';
-import logoUrl from '../images/header_trans4.png';
 import { Link } from 'react-router-dom';
+import logoUrl from '../images/header_trans4.png';
 
 
 const Header = () => (
@@ -9,33 +9,26 @@ const Header = () => (
       <img src={logoUrl} alt="Bosch Bash logo" class="img-fluid" width="600" />
     </a>
     <ul class="navbar-nav ml-auto nav-links">
-    <Link to="/">
+    <Link>
       <li class="nav-item active">
-        <h5>Home</h5><span class="sr-only">(current)</span>
+     <h5>Home</h5><span class="sr-only">(current)</span>
       </li>
-      </Link>
-      {/* <li class="nav-item">
-        <h5>Choose</h5>
+      {/* <li class="nav-item"> */}
+      {/* <Link className="Nav__link" to="/"><h5>Choose</h5></a>
       </li> */}
-      <Link to="/search">
       <li class="nav-item">
-        <h5>Search</h5>
+        <a class="nav-link" href="https://www.boschbash.com/"><h5>Search</h5></a>
       </li>
-      </Link>
-      <Link to="/upload">
       <li class="nav-item">
-        <h5>Upload</h5>
+        <a class="nav-link" href="https://www.boschbash.com/"><h5>Upload</h5></a>
       </li>
-      </Link>
       {/* <li class="nav-item">
-        <h5>Choose</h5>
+        <a class="nav-link" href="https://www.boschbash.com/"><h5>Gallery</h5></a>
       </li>
       <li class="nav-item">
-        <h5>Gallery</h5>
-      </li>
-      <li class="nav-item">
-        <h5>About</h5>
+        <a class="nav-link" href="https://www.boschbash.com/"><h5>About</h5></a>
       </li> */}
+      </Link>
     </ul>
   </nav>
 

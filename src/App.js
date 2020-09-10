@@ -5,7 +5,7 @@ import Welcome from './components/Welcome';
 import Slider from './components/Slider'
 import Preview from './components/Preview';
 import Apigrid from './components/Apigrid';
-// import { BrowserRouter as Router, Switch, Route } 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
 class App extends Component {
@@ -15,16 +15,21 @@ class App extends Component {
   render() {
 
     return (
+      <Router>
       <div>
         <Header />
         <Slider />
-        <Preview />
-        <Apigrid />
-        <Welcome />
-        
+        <Switch>
+        <Route path="/search" component={Apigrid} />
+        <Route path="/upload" component={Preview} />
+        <Route path="/" exact component={Welcome} />
+        </Switch>
         
       </div>
-    )
+      </Router>
+
+    );
+
   }
 }
 export default App;

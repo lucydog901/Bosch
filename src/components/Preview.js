@@ -41,7 +41,7 @@ class Preview extends Component {
     let { imagePreviewUrl } = this.state;
     let $imagePreview = null;
     if (imagePreviewUrl) {
-      $imagePreview = (<img src={imagePreviewUrl} class="img-b" />);
+      $imagePreview = (<img src={imagePreviewUrl} class="img-b" alt="preview"/>);
     }
 
     return (

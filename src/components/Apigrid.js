@@ -27,7 +27,7 @@ class Apigrid extends Component {
                   <div className="card-body px-2">
                     <h6 className="card-title">{painting.title}</h6>
                     <p className="card-subtitle mb-2">{painting.creator}</p>
-                    <img class="a" src={painting.url} alt="Artwork" width="250" class="rounded"/><br></br>
+                    <img class="a rounded" src={painting.url} alt="Artwork" width="250" /><br></br>
                     <h7 className="card-subtitle mb-2">source: {painting.source}</h7>
                   </div>
                 </div>

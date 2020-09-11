@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Slider from './Slider';
 
 
 class Preview extends Component {
@@ -41,11 +42,12 @@ class Preview extends Component {
     let { imagePreviewUrl } = this.state;
     let $imagePreview = null;
     if (imagePreviewUrl) {
-      $imagePreview = (<img src={imagePreviewUrl} class="img-b" alt="preview"/>);
+      $imagePreview = (<img src={imagePreviewUrl} class="img-b" alt="preview" />);
     }
 
     return (
       <div>
+        <div> <Slider /></div>
         <div class="container p-3 my-4">
           <div class="d-flex flex-row">
             <div class="p-4">

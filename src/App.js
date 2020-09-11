@@ -18,7 +18,6 @@ class App extends Component {
       <Router>
       <div>
         <Header />
-        {/* <Slider /> */}
         <Switch>
         <Route path="/choose" component={Slider} />
         <Route path="/search" component={Apigrid} />

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Slider from './Slider';
+import MyCarousel from './MyCarousel';
 
 
 class Preview extends Component {
@@ -47,7 +47,7 @@ class Preview extends Component {
 
     return (
       <div>
-        <div> <Slider /></div>
+        <div> <MyCarousel /></div>
         <div class="container p-3 my-4">
           <div class="d-flex flex-row">
             <div class="p-4">

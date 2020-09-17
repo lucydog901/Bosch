@@ -1,17 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import lisaUrl from '../images/monalisa.png';
 // import stillUrl from '../images/still_life.png';
 import daveUrl from '../images/dave.png';
 import MyCarousel from './MyCarousel';
 
 
-export default class Welcome extends Component {
-  
-  render() {
+const Welcome = () => (
 
-    return (
-      <div>
-<div className="carousel"> <MyCarousel /></div>
   <div className="container p-3 my-4">
     <div className="d-flex flex-row">
       <div className="col-sm-5">
@@ -29,12 +24,11 @@ export default class Welcome extends Component {
           </div>
           </div>
           </div>
-          </div>
         </div>
       </div>
     
 
+
 )
-    }
-  }
+export default Welcome;
 

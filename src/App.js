@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Welcome from './components/Welcome';
-import MyCarousel from './components/MyCarousel'
 import Preview from './components/Preview';
 import Apigrid from './components/Apigrid';
+import Choose from './components/Choose';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
@@ -19,7 +19,7 @@ class App extends Component {
       <div>
         <Header />
         <Switch>
-        <Route path="/choose" component={MyCarousel} />
+        <Route path="/choose" component={Choose} />
         <Route path="/search" component={Apigrid} />
         <Route path="/upload" component={Preview} />
         <Route path="/" exact component={Welcome} />

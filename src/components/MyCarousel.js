@@ -26,17 +26,17 @@ import image10 from '../images/Layer10sm.png';
 export default class MyCarousel extends Component {
   render() {
     return (
-     <Carousel slidesPerPage={5} arrows infinite
+   <Carousel slidesPerPage={6} arrows infinite
     
 >
         <img src={image22} alt="Bosch Character"/>
         <img src={image20} alt="Bosch Character"/>
         <img src={image16} alt="Bosch Character"/>
         <img src={image2} alt="Bosch Character"/>
-        <img src={image1} alt="Bosch Character"/>
+        <img src={image7} alt="Bosch Character"/>
         <img src={image3} alt="Bosch Character"/>
         <img src={image26} alt="Bosch Character"/>
-        <img src={image7} alt="Bosch Character"/>
+        <img src={image1} alt="Bosch Character"/>
         <img src={image23} alt="Bosch Character"/>
         <img src={image8} alt="Bosch Character"/>
         <img src={image9} alt="Bosch Character"/>

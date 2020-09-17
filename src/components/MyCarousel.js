@@ -11,7 +11,7 @@ import image22 from '../images/Layer22sm.png';
 import image23 from '../images/Layer23sm.png';
 import image24 from '../images/Layer24sm.png';
 import image26 from '../images/Layer26sm.png';
-import image3 from '../images/Layer3sm.png';
+import image3 from '../images/Layer3sm2.png';
 import image7 from '../images/Layer7sm.png';
 import image8 from '../images/layer8sm.png';
 import image9 from '../images/layer9sm.png';

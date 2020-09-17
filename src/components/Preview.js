@@ -47,19 +47,19 @@ class Preview extends Component {
 
     return (
       <div>
-        <div class="carousel"> <MyCarousel /></div>
-        <div class="container p-3 my-4">
-          <div class="d-flex flex-row">
-            <div class="p-4">
+        <div className="carousel"> <MyCarousel /></div>
+        <div className="container p-3 my-4">
+          <div className="d-flex flex-row">
+            <div className="p-4">
               <h4>Image Upload</h4>
             </div>
           </div>
-          <div class="d-flex flex-row">
-            <div class="col">
-              <div class="p-4">
+          <div className="d-flex flex-row">
+            <div className="col">
+              <div className="p-4">
                 {$imagePreview}
-                <div class="row">
-                  <div class="p-4">
+                <div className="row">
+                  <div className="p-4">
                     <form onSubmit={this._handleSubmit}>
                       <input type="file" onChange={this._handleImageChange} />
                       <button type="reset" onClick={this._handleRemove}>Remove</button>

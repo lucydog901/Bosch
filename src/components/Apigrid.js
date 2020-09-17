@@ -19,7 +19,7 @@ class Apigrid extends Component {
 
     return (
       <div>
-        <div class="mt-4 col-md-12">
+        <div className="mt-4 col-md-12">
           <div className="container">
             <div className="image-grid">
               {this.state.paintings.map((painting) => (
@@ -27,7 +27,7 @@ class Apigrid extends Component {
                   <div className="card-body px-2">
                     <h6 className="card-title">{painting.title}</h6>
                     <p className="card-subtitle mb-2">{painting.creator}</p>
-                    <img class="a rounded" src={painting.url} alt="Artwork" width="250" /><br></br>
+                    <img className="a rounded" src={painting.url} alt="Artwork" width="250" /><br></br>
                     <h7 className="card-subtitle mb-2">source: {painting.source}</h7>
                   </div>
                 </div>

@@ -26,32 +26,47 @@ import image10 from '../images/Layer10sm.png';
 export default class MyCarousel extends Component {
   render() {
     return (
-   <Carousel slidesPerPage={6} arrows infinite
-    
->
-        <img src={image22} alt="Bosch Character"/>
-        <img src={image20} alt="Bosch Character"/>
-        <img src={image16} alt="Bosch Character"/>
-        <img src={image2} alt="Bosch Character"/>
-        <img src={image7} alt="Bosch Character"/>
-        <img src={image3} alt="Bosch Character"/>
-        <img src={image26} alt="Bosch Character"/>
-        <img src={image1} alt="Bosch Character"/>
-        <img src={image23} alt="Bosch Character"/>
-        <img src={image8} alt="Bosch Character"/>
-        <img src={image9} alt="Bosch Character"/>
-        <img src={image11} alt="Bosch Character"/>
-        <img src={image19} alt="Bosch Character"/>
-        <img src={image12} alt="Bosch Character"/>
-        <img src={image14} alt="Bosch Character"/>
-        <img src={image15} alt="Bosch Character"/>
-        <img src={image24} alt="Bosch Character"/>
-        <img src={image17} alt="Bosch Character"/>
-        <img src={image10} alt="Bosch Character"/>
-        <img src={image21} alt="Bosch Character"/>
+      <Carousel
+        arrows
+        infinite
+        slidesPerPage={9}
+        breakpoints={{
+          1200: { 
+            slidesPerPage: 6,
+          },
+
+          600: { 
+            slidesPerPage: 4,
+          },
+
+        
+        }}
+
+
+      >
+        <img src={image22} alt="Bosch Character" />
+        <img src={image20} alt="Bosch Character" />
+        <img src={image16} alt="Bosch Character" />
+        <img src={image2} alt="Bosch Character" />
+        <img src={image7} alt="Bosch Character" />
+        <img src={image3} alt="Bosch Character" />
+        <img src={image26} alt="Bosch Character" />
+        <img src={image1} alt="Bosch Character" />
+        <img src={image23} alt="Bosch Character" />
+        <img src={image8} alt="Bosch Character" />
+        <img src={image9} alt="Bosch Character" />
+        <img src={image11} alt="Bosch Character" />
+        <img src={image19} alt="Bosch Character" />
+        <img src={image12} alt="Bosch Character" />
+        <img src={image14} alt="Bosch Character" />
+        <img src={image15} alt="Bosch Character" />
+        <img src={image24} alt="Bosch Character" />
+        <img src={image17} alt="Bosch Character" />
+        <img src={image10} alt="Bosch Character" />
+        <img src={image21} alt="Bosch Character" />
       </Carousel>
-    
-    
+
+
     );
   }
 }

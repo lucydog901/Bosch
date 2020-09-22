@@ -36,12 +36,10 @@ export default class MyCarousel extends Component {
           },
 
           600: { 
-            slidesPerPage: 4,
-          },
-
-          300: { 
             slidesPerPage: 2,
           },
+
+        
 
         
         }}

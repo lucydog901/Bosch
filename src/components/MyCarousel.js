@@ -39,6 +39,10 @@ export default class MyCarousel extends Component {
             slidesPerPage: 4,
           },
 
+          300: { 
+            slidesPerPage: 2,
+          },
+
         
         }}
 

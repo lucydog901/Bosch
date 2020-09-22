@@ -12,7 +12,7 @@ export default class Welcome extends Component {
     return (
       <div>
 <div className="carousel"> <MyCarousel /></div>
-  <div className="container p-3 my-4">
+  <div className="container p-3 my-5">
     <div className="d-flex flex-row">
       <div className="col-sm-5">
         <div className="p-4">

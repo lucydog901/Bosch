@@ -2,7 +2,7 @@ import React from 'react';
 import lisaUrl from '../images/monalisa.png';
 // import stillUrl from '../images/still_life.png';
 import daveUrl from '../images/dave.png';
-import MyCarousel from './MyCarousel';
+
 
 
 const Welcome = () => (

@@ -20,18 +20,20 @@ const Header = () => (
       </li> 
       </Link>
       <Link to="/search">
-      <li className="nav-item actuve"><span class="sr-only">(current)</span>
+      <li className="nav-item active"><span class="sr-only">(current)</span>
         <h5>Search</h5>
       </li>
       </Link>
       <Link to="/upload">
-      <li className="nav-item">
+      <li className="nav-item active">
         <h5>Upload</h5>
       </li>
       </Link>
-      <li className="nav-item">
+      <Link to="/gallery">
+      <li className="nav-item active">
         <h5>Gallery</h5>
       </li>
+      </Link>
       <li className="nav-item">
         <h5>About</h5>
       </li> 

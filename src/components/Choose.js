@@ -53,6 +53,13 @@ class Choose extends Component {
                     <img className="a rounded" src={image3} alt="Artwork" width="250" /><br></br>
                     </div>
                 </div>
+                <div className="card">
+                  <div className="card-body px-2">
+                    <h6 className="card-title">Syndics of the Drapers’ Guild</h6>
+                    <p className="card-subtitle mb-2">Rembrandt</p>
+                    <img className="a rounded" src={image7} alt="Artwork" width="250" />
+                  </div>
+                </div>
                     <div className="card">
                   <div className="card-body px-2">
                     <h6 className="card-title">Red Balloon</h6>
@@ -67,20 +74,7 @@ class Choose extends Component {
                     <img className="a rounded" src={image5} alt="Artwork" width="250" /><br></br>
                     </div>
                 </div>
-                    <div className="card">
-                  <div className="card-body px-2">
-                    <h6 className="card-title">Mona Lisa</h6>
-                    <p className="card-subtitle mb-2">Leonardo da Vinci</p>
-                    <img className="a rounded" src={image6} alt="Artwork" width="250" />
-                  </div>
-                </div>
-                <div className="card">
-                  <div className="card-body px-2">
-                    <h6 className="card-title">Syndics of the Drapers’ Guild</h6>
-                    <p className="card-subtitle mb-2">Rembrandt</p>
-                    <img className="a rounded" src={image7} alt="Artwork" width="250" />
-                  </div>
-                </div>
+                    
                 <div className="card">
                   <div className="card-body px-2">
                     <h6 className="card-title">Girl with a Pearl Earring</h6>
@@ -102,13 +96,7 @@ class Choose extends Component {
                     <img className="a rounded" src={image9} alt="Artwork" width="250" />
                   </div>
                 </div>
-                <div className="card">
-                  <div className="card-body px-2">
-                    <h6 className="card-title">The Scream of Nature</h6>
-                    <p className="card-subtitle mb-2">Edvard Munch</p>
-                    <img className="a rounded" src={image11} alt="Artwork" width="250" />
-                  </div>
-                </div>
+                
                 <div className="card">
                   <div className="card-body px-2">
                     <h6 className="card-title">Washington Crossing the Delaware</h6>
@@ -116,18 +104,19 @@ class Choose extends Component {
                     <img className="a rounded" src={image12} alt="Artwork" width="250" />
                   </div>
                 </div>
-                <div className="card">
-                  <div className="card-body px-2">
-                    <h6 className="card-title">The Water-Lily Pond </h6>
-                    <p className="card-subtitle mb-2">Claude Monet</p>
-                    <img className="a rounded" src={image13} alt="Artwork" width="250" />
-                  </div>
-                </div>
+               
                 <div className="card">
                   <div className="card-body px-2">
                     <h6 className="card-title">A Sunday on La Grande Jatte</h6>
                     <p className="card-subtitle mb-2">Georges Seurat</p>
                     <img className="a rounded" src={image15} alt="Artwork" width="250" />
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="card-body px-2">
+                    <h6 className="card-title">The Water-Lily Pond </h6>
+                    <p className="card-subtitle mb-2">Claude Monet</p>
+                    <img className="a rounded" src={image13} alt="Artwork" width="250" />
                   </div>
                 </div>
                 <div className="card">
@@ -146,11 +135,26 @@ class Choose extends Component {
                 </div>
                 <div className="card">
                   <div className="card-body px-2">
+                    <h6 className="card-title">The Scream of Nature</h6>
+                    <p className="card-subtitle mb-2">Edvard Munch</p>
+                    <img className="a rounded" src={image11} alt="Artwork" width="250" />
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="card-body px-2">
                     <h6 className="card-title">The Treachery of Images</h6>
                     <p className="card-subtitle mb-2">René Magritte</p>
                     <img className="a rounded" src={image16} alt="Artwork" width="250" />
                   </div>
                 </div>
+                <div className="card">
+                  <div className="card-body px-2">
+                    <h6 className="card-title">Mona Lisa</h6>
+                    <p className="card-subtitle mb-2">Leonardo da Vinci</p>
+                    <img className="a rounded" src={image6} alt="Artwork" width="250" />
+                  </div>
+                </div>
+              
                 <div className="card">
                   <div className="card-body px-2">
                     <h6 className="card-title">Virgin and Child</h6>

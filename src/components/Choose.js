@@ -30,6 +30,36 @@ class Choose extends Component {
         <div className="mt-4 col-md-12">
           <div className="container">
             <div className="image-grid">
+         
+                <div className="card">
+                  <div className="card-body px-2">
+                    <h6 className="card-title">Virgin and Child</h6>
+                    <p className="card-subtitle mb-2">Sandro Botticelli</p>
+                    <img className="a rounded" src={image17} alt="Artwork" width="250" />
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="card-body px-2">
+                    <h6 className="card-title">The Old Guitarist</h6>
+                    <p className="card-subtitle mb-2">Pablo Picasso</p>
+                    <img className="a rounded" src={image19} alt="Artwork" width="250" />
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="card-body px-2">
+                    <h6 className="card-title">At the Foot of the Cliff</h6>
+                    <p className="card-subtitle mb-2">William-Adolphe Bouguereau</p>
+                    <img className="a rounded" src={image20} alt="Artwork" width="250" />
+                  </div>
+                </div>
+                <div className="card">
+                  <div className="card-body px-2">
+                    <h6 className="card-title">Mona Lisa</h6>
+                    <p className="card-subtitle mb-2">Leonardo da Vinci</p>
+                    <img className="a rounded" src={image6} alt="Artwork" width="250" />
+                  </div>
+                </div>
+              
                 <div className="card">
                   <div className="card-body px-2">
                     <h6 className="card-title">The Starry Night</h6>
@@ -147,36 +177,7 @@ class Choose extends Component {
                     <img className="a rounded" src={image16} alt="Artwork" width="250" />
                   </div>
                 </div>
-                <div className="card">
-                  <div className="card-body px-2">
-                    <h6 className="card-title">Mona Lisa</h6>
-                    <p className="card-subtitle mb-2">Leonardo da Vinci</p>
-                    <img className="a rounded" src={image6} alt="Artwork" width="250" />
-                  </div>
-                </div>
-              
-                <div className="card">
-                  <div className="card-body px-2">
-                    <h6 className="card-title">Virgin and Child</h6>
-                    <p className="card-subtitle mb-2">Sandro Botticelli</p>
-                    <img className="a rounded" src={image17} alt="Artwork" width="250" />
-                  </div>
-                </div>
-                <div className="card">
-                  <div className="card-body px-2">
-                    <h6 className="card-title">The Old Guitarist</h6>
-                    <p className="card-subtitle mb-2">Pablo Picasso</p>
-                    <img className="a rounded" src={image19} alt="Artwork" width="250" />
-                  </div>
-                </div>
-                <div className="card">
-                  <div className="card-body px-2">
-                    <h6 className="card-title">At the Foot of the Cliff</h6>
-                    <p className="card-subtitle mb-2">William-Adolphe Bouguereau</p>
-                    <img className="a rounded" src={image20} alt="Artwork" width="250" />
-                  </div>
-                </div>
-              
+                
               
             </div>
     

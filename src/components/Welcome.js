@@ -22,7 +22,7 @@ export default class Welcome extends Component {
         <div className="p-4">
         <div className="card-transparent">
         <div className="card-body">
-        <h4 className="card-text"><b>Boschicize It!</b><br></br><br></br>Create your own masterpiece with figures from Hieronymus Bosch's painting <i>The Garden of Earthly Delights</i>. Boschicize famous artworks from the public domain or use your own photos. You may search art museum collections for an image, choose one from the gallery, or upload your own.</h4><br></br>
+        <h4 className="card-text"><h3><b>Boschicize It!</b></h3>Create your own masterpiece with figures from Hieronymus Bosch's painting <i>The Garden of Earthly Delights</i>. Boschicize famous artworks from the public domain or use your own photos. You may search art museum collections for an image, choose one from the gallery, or upload your own.</h4><br></br>
         <img className="card-img-bottom rounded img-fluid" src={daveUrl} alt="Still Life"></img>
           </div>
           </div>

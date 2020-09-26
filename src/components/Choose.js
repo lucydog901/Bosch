@@ -33,7 +33,7 @@ class Choose extends Component {
          
                 <div className="card">
                   <div className="card-body px-2">
-                    <h6 className="card-title">Virgin and Child</h6>
+                    <h6 className="card-title"><b>Virgin and Child</b></h6>
                     <p className="card-subtitle mb-2">Sandro Botticelli</p>
                     <img className="a rounded" src={image17} alt="Artwork" width="250" />
                   </div>
